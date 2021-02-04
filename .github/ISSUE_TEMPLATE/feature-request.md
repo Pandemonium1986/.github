@@ -1,7 +1,6 @@
 ---
 name: ✨ Feature request
 about: Suggest an idea for this project
-about: Create a report to help us improve
 title: ''
 labels: enhancement
 assignees: Pandemonium1986
