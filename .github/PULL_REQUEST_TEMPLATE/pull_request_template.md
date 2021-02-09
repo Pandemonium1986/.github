@@ -2,7 +2,7 @@
 name: Pull request
 about: Describe the proposed change
 title: ''
-labels: bug
+labels: enhancement
 assignees: Pandemonium1986
 ---
 
