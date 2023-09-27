@@ -5,11 +5,12 @@ Before you submit this PR we'd like to make sure you are aware of our technical 
 * https://github.com/Pandemonium1986/.github/blob/main/CONTRIBUTING.md#coding-conventions
 -->
 
-**Describe the change**
+<!-- markdownlint-disable-next-line -->
+#### Describe the change
 <!-- A clear and concise description of what the pull request is. -->
 
-**Testing**
+#### Testing
 <!-- In case a feature was added, how were tests performed? -->
 
-**Additional information**
+#### Additional information
 <!-- Add any other information -->

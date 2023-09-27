@@ -7,25 +7,26 @@ assignees: Pandemonium1986
 
 ---
 
-**Describe the bug**
+#### Describe the bug
 <!-- A clear and concise description of what the bug is. -->
 
-**To Reproduce**
+#### To Reproduce
 <!-- Steps to reproduce the behavior: -->
 
-**Expected behavior**
+#### Expected behavior
 <!-- A clear and concise description of what you expected to happen. -->
 
-**Actual Results**
+#### Actual Results
 <!--- Describe what actually happened. If possible run with extra verbosity (-vvvv) -->
 
-**Screenshots**
+#### Screenshots
 <!-- If applicable, add screenshots to help explain your problem. -->
 
-**Desktop (please complete the following information):**
- - OS: [e.g. Debian 11]
- - Tools [e.g. ansible, docker]
- - Version [e.g. 2.10.5]
+#### Desktop (please complete the following information)
 
-**Additional context**
+- OS:(e.g. Debian 11)
+- Tools (e.g. ansible, docker)
+- Version (e.g. 2.10.5)
+
+#### Additional context
 <!-- Add any other context about the problem here. -->
