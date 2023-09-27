@@ -11,7 +11,7 @@ repository:
   has_downloads: false
   default_branch: main
   is_template: false
-  allow_squash_merge: false
+  allow_squash_merge: true
   allow_merge_commit: false
   allow_rebase_merge: false
   # Dependabot
