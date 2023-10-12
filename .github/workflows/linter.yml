@@ -17,8 +17,7 @@ on:
     secrets:
       github-token:
         description: "GitHub Token"
-        required: true
-        type: string
+        required: true        
 
 jobs:
   build:
