@@ -1,5 +1,5 @@
 ---
-name: "GitHub Super Linter"
+name: "ReWkflw: GitHub Super Linter"
 
 on:
   workflow_call:
@@ -20,7 +20,7 @@ on:
         required: true        
 
 jobs:
-  build:
+  lint:
     name: "Lint Code Base"
     runs-on: ubuntu-latest
     permissions:
@@ -28,10 +28,11 @@ jobs:
       packages: read
       statuses: write
     steps:
-      - uses: actions/checkout@v4
+      - name: "Init: Run checkout"
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Lint Code Base
+      - name: "Lint: Code Base"
         uses: super-linter/super-linter/slim@v5
         env:
           VALIDATE_ALL_CODEBASE: ${{ inputs.validate-all-code-base }}
