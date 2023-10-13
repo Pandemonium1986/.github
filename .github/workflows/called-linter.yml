@@ -1,5 +1,5 @@
 ---
-name: "ReWkflw: GitHub Super Linter"
+name: "Called: GitHub Super Linter"
 
 on:
   workflow_call:
