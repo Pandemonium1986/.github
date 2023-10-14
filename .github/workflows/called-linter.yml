@@ -38,3 +38,4 @@ jobs:
           VALIDATE_ALL_CODEBASE: ${{ inputs.validate-all-code-base }}
           DEFAULT_BRANCH: ${{ inputs.default-branch }}
           GITHUB_TOKEN: ${{ secrets.github-token }}
+          LINTER_RULES_PATH: .
