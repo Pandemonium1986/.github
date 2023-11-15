@@ -1,16 +1,16 @@
 ---
-name: "Called: GitHub Super Linter"
+name: "GitHub Super-Linter"
 
 on:
   workflow_call:
     inputs:
       validate-all-code-base:
-        description: "GitHub Super Linter validate all code base instead of new code"
+        description: "GitHub Super-Linter validate all code base instead of new code"
         required: false
         type: boolean
         default: true
       default-branch:
-        description: "GitHub Super Linter default branch"
+        description: "GitHub Super-Linter default branch"
         default: main
         required: false
         type: string
@@ -21,7 +21,7 @@ on:
 
 jobs:
   lint:
-    name: "Lint Code Base"
+    name: "Gsl: Lint Code Base"
     runs-on: ubuntu-latest
     permissions:
       contents: read
