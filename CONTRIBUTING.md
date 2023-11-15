@@ -97,7 +97,7 @@ steps:
     run:  molecule destroy
 ```
 
-#### About called workflows
+#### Called workflows naming convention
 
 A called-workflow follow the same convention than standard worflow and **MUST** be named with prefix `Called:`.
 
@@ -108,4 +108,3 @@ jobs:
 ```
 
 Thanks for your attention !
-f
