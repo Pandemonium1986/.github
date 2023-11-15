@@ -13,21 +13,21 @@ I'll try to help and take every contribution seriously.
 
 ## Coding conventions
 
-I use some conventions that I invite you to follow
+I use some conventions that I invite you to follow :
 
-- I use [.editorconfig](https://editorconfig.org).
-- I follow [conventional commits](https://conventionalcommits.org/).
-- I have some [pre-commit hooks](https://pre-commit.com/). Take a look at the [README](README.md) file.
-- I rely on linter (depending on the project) :
+- I use [.editorconfig](https://editorconfig.org)
+- I follow [conventional commits](https://conventionalcommits.org/)
+- I have some [pre-commit hooks](https://pre-commit.com/). Take a look at the [README](README.md) file
+- I rely on linter (depending on the project)
   - ansible-lint
   - eclint
   - gitlint
   - hadolint
   - yamllint
 
-## GitHub actions naming convention
+## GitHub actions convention
 
-### File name
+### Files name
 
 #### Naming convention
 
