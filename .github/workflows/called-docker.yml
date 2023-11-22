@@ -45,7 +45,7 @@ jobs:
           fetch-depth: 0
       - name: "Prepare: Truncate image name"
         id: docker_truncate
-        run: echo "docker-image-truncate=${DOCKER_IMAGE#*/}" >> $GITHUB_OUTPUT
+        run: echo "docker-image-truncate=${DOCKER_IMAGE#*-}" >> $GITHUB_OUTPUT
       - name: "Prepare: Docker meta"
         id: docker_meta
         uses: docker/metadata-action@v5.0.0
