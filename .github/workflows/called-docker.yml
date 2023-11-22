@@ -18,6 +18,15 @@ on:
         required: true
 
 jobs:
+  called-linter:
+    permissions:
+      contents: read
+      packages: read
+      statuses: write
+    name: "Called: GitHub Super Linter Workflow"
+    uses: pandemonium1986/.github/.github/workflows/called-linter.yml@main
+    secrets:
+      github-token: ${{ secrets.GITHUB_TOKEN }}
   docker:
     name: "Dbp: Build and Push"
     runs-on: ubuntu-latest
