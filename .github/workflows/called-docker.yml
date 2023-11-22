@@ -28,6 +28,8 @@ jobs:
   #   secrets:
   #     github-token: ${{ secrets.GITHUB_TOKEN }}
   docker:
+    env:
+      DOCKER_IMAGE: ${{ inputs.docker-image }}
     name: "Dbp: Build and Push"
     runs-on: ubuntu-latest
     permissions:
@@ -43,8 +45,7 @@ jobs:
           fetch-depth: 0
       - name: "Prepare: Truncate image name"
         id: docker_truncate
-        run: echo "::set-output name=docker-image-truncate::${inputs.docker-image##*/}"
-        
+        run: echo "::set-output name=docker-image-truncate::${DOCKER_IMAGE#*/}"
       - name: "Prepare: Docker meta"
         id: docker_meta
         uses: docker/metadata-action@v5.0.0
