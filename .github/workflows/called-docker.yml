@@ -41,11 +41,14 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+      - name: "Prepare: Truncate image name"
+        id: docker_truncate
+        run: echo "::set-output name=docker-image-truncate::${inputs.docker-image#*-}"
       - name: "Prepare: Docker meta"
         id: docker_meta
         uses: docker/metadata-action@v5.0.0
         with:
-          images: ghcr.io/${{ inputs.docker-user }}/${{ inputs.docker-image }}
+          images: ghcr.io/${{ inputs.docker-user }}/${{ steps.docker_truncate.outputs.docker-image-truncate }}
           tags: |
             type=schedule,pattern=nightly
             type=ref,event=branch
