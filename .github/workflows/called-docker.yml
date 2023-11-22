@@ -33,6 +33,9 @@ jobs:
     permissions:
       contents: read
       packages: write
+      statuses: write
+    needs:
+      - called-linter
     steps:
       - name: "Init: Checkout"
         uses: actions/checkout@v4
