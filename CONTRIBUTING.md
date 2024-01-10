@@ -22,6 +22,6 @@ I use some conventions that I invite you to follow :
 
 If you want to contribute to a `github-action` pipeline please follow this [conventions](docs/github-actions.md).
 
-If you want to contribute to a `ansible` playbook/role/collection please follow this [conventions](docs/github-actions.md).
+If you want to contribute to a `ansible` playbook/role/collection please follow this [conventions](docs/ansible.md).
 
 Thanks for your attention !
