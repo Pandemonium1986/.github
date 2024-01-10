@@ -20,8 +20,8 @@ I use some conventions that I invite you to follow :
 - I have some [pre-commit hooks](https://pre-commit.com/). Take a look at the [README](README.md) file
 - I use [super-linter](https://github.com/super-linter/super-linter) for all my repositories.
 
-If you want to contribute to a `github-action` pipeline please follow this [guideline](docs/github-actions.md).
+If you want to contribute to a `github-action` pipeline please follow this [conventions](docs/github-actions.md).
 
-If you want to contribute to a `ansible` playbook/role/collection please follow this [guideline](docs/github-actions.md).
+If you want to contribute to a `ansible` playbook/role/collection please follow this [conventions](docs/github-actions.md).
 
 Thanks for your attention !

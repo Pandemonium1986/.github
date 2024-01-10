@@ -74,6 +74,28 @@ TBD
 
 ## Role
 
+### Naming convention
+
+Variables associated with a particular distribution **MUST** be located in a file named distro-[os_familly]-[os_version].yml
+
+- distro-centos-7.yml
+- distro-debian-12.yml
+- distro-suse-tumbleweed.yml
+
+Variables associated with a particular OS family **MUST** be found in a file named familly-[os_familly].yml
+
+- family-debian.yml
+- family-redhat.yml
+- family-suse.yml
+
+Variables associated with a particular distribution **MUST** be found in a file named setup-[os_familly].yml
+
+- setup-debian.yml
+- setup-redhat.yml
+- setup-suse.yml
+
+### Structure
+
 Each role **MUST** contain an `assert.yml` file to test the validity of user-defined parameters.
 
 ```yaml
