@@ -88,7 +88,7 @@ Variables associated with a particular OS family **MUST** be found in a file nam
 - family-redhat.yml
 - family-suse.yml
 
-Variables associated with a particular distribution **MUST** be found in a file named setup-[os_familly].yml
+Tasks associated with a particular distribution **MUST** be found in a file named setup-[os_familly].yml
 
 - setup-debian.yml
 - setup-redhat.yml
