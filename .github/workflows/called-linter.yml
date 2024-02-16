@@ -33,7 +33,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: "Lint: Code base"
-        uses: super-linter/super-linter/slim@v5
+        uses: super-linter/super-linter/slim@v6
         env:
           VALIDATE_ALL_CODEBASE: ${{ inputs.validate-all-code-base }}
           DEFAULT_BRANCH: ${{ inputs.default-branch }}
