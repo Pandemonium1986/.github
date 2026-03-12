@@ -56,7 +56,7 @@ jobs:
             type=ref,event=branch
             type=semver,pattern={{ version }}
       - name: "Docker: Login to GitHub container registry"
-        uses: docker/login-action@v3
+        uses: docker/login-action@v4
         with:
           registry: ghcr.io
           username: ${{ github.repository_owner }}
